@@ -13,7 +13,6 @@ class ProductCategory extends Model
     [
     'name',
     'description',
-    'is_active',
 
     ];
 
@@ -27,6 +26,6 @@ class ProductCategory extends Model
         return $this->hasMany(Product::class);
     }
 
-    
+
 
 }
